@@ -1,0 +1,46 @@
+
+# Initial Menu
+print(f'Davy\'s auto shop services\n'  
+      f'Oil change -- $35\n'
+      f'Tire rotation -- $19\n'
+      f'Car wash -- $7\n'
+      f'Car wax -- $12')
+print('')
+
+# Prices Database
+service = {
+    'Oil change': 35,
+    'Tire rotation': 19,
+    'Car wash': 7,
+    'Car wax': 12,
+
+}
+
+# Variables holding user input
+service_1 = input('Select first service:\n')
+service_2 = input('Select second service:\n')
+print('')
+
+# Branches enabling user to enter - for no service
+if service_1 == '-':
+    print(f'Davy\'s auto shop invoice\n'  # No service 1
+          f'\n'
+          f'Service 1: No service\n'
+          f'Service 2: {service_2}, ${service[service_2]}\n'
+          f'\n'
+          f'Total: ${service[service_2]}')
+
+elif service_2 == '-':
+    print(f'Davy\'s auto shop invoice\n'  # No service 2
+          f'\n'
+          f'Service 1: {service_1}, ${service[service_1]}\n'
+          f'Service 2: No service\n'
+          f'\n'
+          f'Total: ${service[service_1]}')
+else:
+    print(f'Davy\'s auto shop invoice\n'  # Both services
+          f'\n'
+          f'Service 1: {service_1}, ${service[service_1]}\n'
+          f'Service 2: {service_2}, ${service[service_2]}\n'
+          f'\n'
+          f'Total: ${service[service_1] + service[service_2]}')
