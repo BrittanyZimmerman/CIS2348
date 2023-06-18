@@ -1,0 +1,32 @@
+import math
+
+# user input height and width
+h = float(input('Enter wall height (feet):\n'))
+w = float(input('Enter wall width (feet):\n'))
+area = h * w
+
+# output wall area
+print(f'Wall area: {int(area)} square feet')
+
+# define paint gallons and gallons needed
+p_gal = 350
+print(f'Paint needed: {area / p_gal:.2f} gallons')
+
+# define paint cans and cans needed
+p_can = int(math.ceil(area / p_gal))
+print(f'Cans needed: {p_can} can(s)\n')
+
+# dictionary containing paint pricing
+colors = {
+    'red': int(35 * p_can),
+    'blue': int(25 * p_can),
+    'green': int(23 * p_can)
+
+}
+
+# user inputs paint color and receives cost of paint.
+C = input('Choose a color to paint the wall:\n')
+print(f'Cost of purchasing {C} paint: ${colors[C]}')
+
+
+
