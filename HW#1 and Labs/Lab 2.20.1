@@ -1,0 +1,32 @@
+
+# user input prompts
+lem_j = float(input('Enter amount of lemon juice (in cups):\n'))
+wat = float(input('Enter amount of water (in cups):\n'))
+agave = float(input('Enter amount of agave nectar (in cups):\n'))
+serv = float(input('How many servings does this make?\n'))
+print('')
+
+
+# servings output
+print(f'Lemonade ingredients - yields {serv:.2f} servings\n'
+      f'{lem_j:.2f} cup(s) lemon juice\n'
+      f'{wat:.2f} cup(s) water\n'
+      f'{agave:.2f} cup(s) agave nectar')
+print('')
+
+# servings needed input
+serv_need = float(input('How many servings would you like to make?\n'))
+print('')
+serv_scale = serv_need / serv  # servings scale for operations
+print(f'Lemonade ingredients - yields {serv_need:.2f} servings\n'
+      f'{lem_j * serv_scale:.2f} cup(s) lemon juice\n'
+      f'{wat * serv_scale:.2f} cup(s) water\n'
+      f'{agave * serv_scale:.2f} cup(s) agave nectar')
+print('')
+
+# cups to gallons conversion
+print(f'Lemonade ingredients - yields {serv_need:.2f} servings\n'
+      f'{(lem_j * serv_scale) / 16:.2f} gallon(s) lemon juice\n'
+      f'{(wat * serv_scale) / 16:.2f} gallon(s) water\n'
+      f'{agave * serv_scale / 16:.2f} gallon(s) agave nectar')
+
