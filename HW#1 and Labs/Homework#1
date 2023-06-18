@@ -1,0 +1,31 @@
+
+# introduce birthday calculator and receive current day, month, and year.
+print('Birthday Calculator')
+c_month = int(input('Current month:'))
+c_day = int(input('Current day:'))
+c_year = int(input('Current 4-digit year:'))
+
+# output received current info
+print(f'Current day\n'
+      f'Month: {c_month}\n'
+      f'Day: {c_day}\n'
+      f'Year: {c_year}')
+
+# receive birthday month, day, and year
+b_month = int(input('Birthday month:'))
+b_day = int(input('Birthday day:'))
+b_year = int(input('Birthday 4-digit year:'))
+
+# output received info
+print(f'Birthday\n'
+      f'Month: {b_month}\n'
+      f'Day: {b_day}\n'
+      f'Year: {b_year}')
+
+# Happy Birthday date check
+if c_month == b_month and c_day == b_day:
+    print('Happy Birthday!')
+
+# Age calculation
+age = c_year - b_year
+print(f'You are {age} years old.')
