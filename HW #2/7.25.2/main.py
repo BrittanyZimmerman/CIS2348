@@ -1,3 +1,6 @@
+# Name: Brittany Zimmerman
+# PSID: 2219602
+
 def exact_change(val):
 
     num_dollar = (val // 100)
