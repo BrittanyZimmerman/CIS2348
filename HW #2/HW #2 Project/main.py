@@ -1,5 +1,6 @@
 # Name: Brittany Zimmerman
 # PSID: 2219602
+
 import datetime
 
 month_def = {
@@ -19,6 +20,7 @@ month_def = {
 
 date = ""
 if __name__ == "__main__":
+    new_date_list = ['']
     while date != "-1":
         date = str(input("Enter date in the following format: Month Day, Year."))
         date_list = date.split(" ")
@@ -29,8 +31,6 @@ if __name__ == "__main__":
             day = date_list[1]
             year = date_list[2]
             year_len = len(year)
-
-            
 
             if month in month_def:
                 month_num = month_def[month]
@@ -45,7 +45,12 @@ if __name__ == "__main__":
                         date_date = datetime.datetime.strptime(date_string, '%Y-%m-%d').date()
 
                         if date_date <= datetime.date.today() and year_len == 4:
-                            print(f'{month_num}/{day_num}/{year_num}.')
+                            full_date = str(month_num) + '/' + day + '/' + year
+                            new_date_list.append(full_date)
 
                 else:
                     continue
+
+    new_date_list.pop(0)
+    for date in new_date_list:
+        print(date)
