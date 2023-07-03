@@ -1,3 +1,5 @@
+# Name: Brittany Zimmerman
+# PSID: 2219602
 
 input_val = str(input())
 empty = ''
