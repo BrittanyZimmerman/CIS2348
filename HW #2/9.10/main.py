@@ -1,3 +1,6 @@
+# Name: Brittany Zimmerman
+# PSID: 2219602
+
 import csv
 
 input1 = input()
