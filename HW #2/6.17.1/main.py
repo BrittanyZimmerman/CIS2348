@@ -1,4 +1,5 @@
-
+# Brittany Zimmerman
+# PSID: 2219602
 if name == 'main':
     input_val = int(input())
     num_dollars, num_quarters, num_dimes, num_nickles, num_pennies = exact_change(input_val)
