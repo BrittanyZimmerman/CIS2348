@@ -17,9 +17,6 @@ month_def = {
         "November": "11",
         "December": "12"
     }
-f = open('inputDates.txt')
-values = f.readline()
-
 
 date = ""
 if __name__ == "__main__":
