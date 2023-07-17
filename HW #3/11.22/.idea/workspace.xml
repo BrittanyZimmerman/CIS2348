@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream:HW #3/11.22/.idea/workspace.xml
     <list default="true" id="80e913e6-bb31-4be3-a9e6-476f94b78c13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../HW #2/HW #2 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW #2/HW #2 Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HW #2/HW #2 Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW #2/HW #2 Project/main.py" afterDir="false" />
+=======
+    <list default="true" id="ad52afa9-afcc-414d-9f5e-aeee2551ebfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+>>>>>>> Stashed changes:HW #2/HW #2 Project/.idea/workspace.xml
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +71,7 @@
     <state width="728" height="460" key="GridCell.Tab.0.bottom" timestamp="1689546964413">
       <screen x="0" y="0" width="1504" height="955" />
     </state>
+<<<<<<< Updated upstream:HW #3/11.22/.idea/workspace.xml
     <state width="728" height="460" key="GridCell.Tab.0.bottom/0.0.1504.955@0.0.1504.955" timestamp="1689546964413" />
     <state width="728" height="460" key="GridCell.Tab.0.center" timestamp="1689546964413">
       <screen x="0" y="0" width="1504" height="955" />
@@ -82,5 +89,24 @@
       <screen x="0" y="0" width="1504" height="955" />
     </state>
     <state x="746" y="0" width="764" height="961" maximized="true" key="dock-window-1/0.0.1504.955@0.0.1504.955" timestamp="1689546964530" />
+=======
+    <state x="533" y="233" key="FileChooserDialogImpl/0.0.1504.955@0.0.1504.955" timestamp="1688347534290" />
+    <state width="1483" height="103" key="GridCell.Tab.0.bottom" timestamp="1688354358338">
+      <screen x="0" y="0" width="1504" height="955" />
+    </state>
+    <state width="1483" height="103" key="GridCell.Tab.0.bottom/0.0.1504.955@0.0.1504.955" timestamp="1688354358338" />
+    <state width="1483" height="103" key="GridCell.Tab.0.center" timestamp="1688354358338">
+      <screen x="0" y="0" width="1504" height="955" />
+    </state>
+    <state width="1483" height="103" key="GridCell.Tab.0.center/0.0.1504.955@0.0.1504.955" timestamp="1688354358338" />
+    <state width="1483" height="103" key="GridCell.Tab.0.left" timestamp="1688354358338">
+      <screen x="0" y="0" width="1504" height="955" />
+    </state>
+    <state width="1483" height="103" key="GridCell.Tab.0.left/0.0.1504.955@0.0.1504.955" timestamp="1688354358338" />
+    <state width="1483" height="103" key="GridCell.Tab.0.right" timestamp="1688354358338">
+      <screen x="0" y="0" width="1504" height="955" />
+    </state>
+    <state width="1483" height="103" key="GridCell.Tab.0.right/0.0.1504.955@0.0.1504.955" timestamp="1688354358338" />
+>>>>>>> Stashed changes:HW #2/HW #2 Project/.idea/workspace.xml
   </component>
 </project>
