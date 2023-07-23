@@ -1,3 +1,6 @@
+# Brittany Zimmerman
+# 2219602
+
 from datetime import datetime       # needed to read and compare dates
 
 
