@@ -1,3 +1,6 @@
+# Brittany Zimmerman
+# 2219602
+
 def get_age():
         age = int(input())
         if age < 18 or age > 75:
