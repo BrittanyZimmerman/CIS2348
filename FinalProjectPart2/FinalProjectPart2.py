@@ -26,7 +26,6 @@ if __name__ == "__main__":
     manuF_list = []
     date_list = []
     price_list = []
-    ftc = []
 
     # Opens/reads manufacturer list
     with open('ManufacturerList.csv', 'r') as csvfile:
